@@ -1,5 +1,0 @@
-version: "1"
-rules:
-  - base: main                       # 你 fork 中的目标分支
-    upstream: cmliu:main              # 上游 cmliu/CF-Workers-UsagePanel:main
-    mergeMethod: hardreset            # 直接硬重置，保持与上游完全一致
